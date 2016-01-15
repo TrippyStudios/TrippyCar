@@ -16,7 +16,7 @@ public class WALRUStimer : MonoBehaviour
         else
         {
             Application.Quit();
-            SceneManager.LoadScene(0)
+            SceneManager.LoadScene(0);
         }
     }
 }
