@@ -13,6 +13,10 @@ public class WALRUStimer : MonoBehaviour
         {
             currenttime += 1;
         }
+        if (Input.GetButtonDown("WALRUS"))
+        {
+            SceneManager.LoadScene("SECRET");
+        }
         else
         {
             Application.Quit();
