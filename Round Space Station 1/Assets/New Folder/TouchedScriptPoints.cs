@@ -68,6 +68,11 @@ public class TouchedScriptPoints : MonoBehaviour
         {
 
         }
+        if (Input.GetButtonDown("Cancel"))
+        {
+            Application.Quit();
+            print("QUIT");
+        }
         string score = CSS.ToString();
         txt.text = "Time: " + score;
        // print("Loaded");
