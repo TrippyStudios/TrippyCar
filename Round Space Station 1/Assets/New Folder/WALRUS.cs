@@ -8,6 +8,6 @@ public class WALRUS : MonoBehaviour
     // Use this for initialization
     public void changeScene()
     {
-        SceneManager.LoadScene(5);
+        SceneManager.LoadScene("WALRUS");
     }
 }

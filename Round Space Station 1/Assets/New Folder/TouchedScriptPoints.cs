@@ -26,7 +26,7 @@ public class TouchedScriptPoints : MonoBehaviour
         else if (col.gameObject.name == "DEATH")
         {
             print("TUUS MORTUS ES");
-            SceneManager.LoadScene(4);
+            SceneManager.LoadScene("DEATH");
         }
         else if (col.gameObject.name == "youWin")
         {
@@ -46,23 +46,23 @@ public class TouchedScriptPoints : MonoBehaviour
         }
         else if (GameObject.Find("lvl3"))
         {
-            level = 2;
+            level = 3;
         }
         else if (GameObject.Find("lvl4"))
         {
-            level = 2;
+            level = 4;
         }
         else if (GameObject.Find("lvl5"))
         {
-            level = 2;
+            level = 5;
         }
         else if (GameObject.Find("lvl6"))
         {
-            level = 2;
+            level = 6;
         }
         else if (GameObject.Find("lvl7"))
         {
-            level = 2;
+            level = 0;
         }
         else
         {
@@ -76,10 +76,10 @@ public class TouchedScriptPoints : MonoBehaviour
         {
             CSS += 1;
         }
-        if (CSS >= 2000)
+        if (CSS >= 1500)
         {
             print("TUUS MORTUS ES");
-            SceneManager.LoadScene(4);
+            SceneManager.LoadScene("DEATH");
         }
     }
 }

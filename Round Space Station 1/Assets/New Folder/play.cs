@@ -6,6 +6,6 @@ public class play : MonoBehaviour {
 
 	// Use this for initialization
 	public void changeScene () {
-        SceneManager.LoadScene(2);
+        SceneManager.LoadScene(1);
 	}
 }

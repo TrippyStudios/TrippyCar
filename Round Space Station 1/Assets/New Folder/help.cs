@@ -8,6 +8,6 @@ public class help : MonoBehaviour
     // Use this for initialization
     public void changeScene()
     {
-        SceneManager.LoadScene(1);
+        SceneManager.LoadScene("Help");
     }
 }
