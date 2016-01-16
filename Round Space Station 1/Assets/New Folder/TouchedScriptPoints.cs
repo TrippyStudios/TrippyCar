@@ -19,9 +19,8 @@ public class TouchedScriptPoints : MonoBehaviour
     {
         if (col.gameObject.name == "Score_Cube")
         {
-            // CSS+=10;
-            print(CSS);
             Destroy(col.gameObject);
+            CSS += 500;
         }
         else if (col.gameObject.name == "DEATH")
         {
@@ -62,7 +61,7 @@ public class TouchedScriptPoints : MonoBehaviour
         }
         else if (GameObject.Find("lvl7"))
         {
-            level = 0;
+            level = 7;
         }
         else
         {
