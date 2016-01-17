@@ -17,6 +17,6 @@ public class Secret : MonoBehaviour {
     public void continuer()
     {
         Destroy(GameObject.Find("Canvas"));
-        SceneManager.LoadScene(0)
+        SceneManager.LoadScene(0);
     }
 }
