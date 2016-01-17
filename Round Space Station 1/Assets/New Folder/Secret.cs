@@ -1,4 +1,5 @@
 ﻿using UnityEngine;
+using UnityEngine.SceneManagement;
 using System.Collections;
 
 public class Secret : MonoBehaviour {
@@ -16,5 +17,6 @@ public class Secret : MonoBehaviour {
     public void continuer()
     {
         Destroy(GameObject.Find("Canvas"));
+        SceneManager.LoadScene(0)
     }
 }
